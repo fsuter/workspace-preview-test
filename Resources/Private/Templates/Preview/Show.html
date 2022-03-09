@@ -1,0 +1,15 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	  xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+	  data-namespace-typo3-fluid="true">
+
+<f:if condition="{error}">
+    <f:then>
+        <h2>Error</h2>
+        <p><strong>{error}</strong></p>
+    </f:then>
+    <f:else>
+        <h2>Preview</h2>
+        <p>Title: {record.title}</p>
+    </f:else>
+</f:if>
+</html>
