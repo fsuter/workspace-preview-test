@@ -9,7 +9,7 @@
 		"role": "Developer"
 	}],
 	"require": {
-		"typo3/cms-core": "^11-5 || 12.0.*@dev"
+		"typo3/cms-core": "^11.5 || 12.0.*@dev"
 	},
 	"extra": {
 		"typo3/cms": {
