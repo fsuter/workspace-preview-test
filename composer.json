@@ -1,0 +1,24 @@
+{
+	"name": "fsuter/workspace-preview-test",
+	"type": "typo3-cms-extension",
+	"description": "Workspace preview bug test extension",
+	"license": ["GPL-2.0-or-later"],
+	"authors": [{
+		"name": "Francois Suter",
+		"email": "francois.suter@ideative.ch",
+		"role": "Developer"
+	}],
+	"require": {
+		"typo3/cms-core": "^11-5 || 12.0.*@dev"
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "workspace_preview_test"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"Fsuter\\WorkspacePreviewTest\\": "Classes/"
+		}
+	}
+}
